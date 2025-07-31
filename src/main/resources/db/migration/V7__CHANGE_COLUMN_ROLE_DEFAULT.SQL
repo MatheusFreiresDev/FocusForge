@@ -1,0 +1,3 @@
+ALTER TABLE tb_user
+CHANGE COLUMN role role VARCHAR(255) DEFAULT "USER"  ;
+    

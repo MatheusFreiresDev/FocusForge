@@ -1,0 +1,2 @@
+ALTER TABLE tb_user
+CHANGE COLUMN email email VARCHAR(255) NOT NULL  ;

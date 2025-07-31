@@ -15,7 +15,7 @@ import java.util.HashMap;
 
 public class FocusControllerAdvice {
 
-@ExceptionHandler(EmailOrPasswordInvalid.class)
+@ExceptionHandler(MethodArgumentNotValidException.class)
 @ResponseStatus(HttpStatus.BAD_REQUEST)
 public HashMap<String,String> notvalid(MethodArgumentNotValidException exception){
     HashMap<String,String> erros = new HashMap<>();
